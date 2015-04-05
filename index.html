@@ -89,19 +89,19 @@
 
   <div class="entry-content"><p>Pictures in this post coming soon!</p>
 
-<h2>100 Watt LEDs</h2>
+<h3>100 Watt LEDs</h3>
 
 <p>A while ago I found that you can purchase high power LEDs for decent prices from places such as <a href="http://www.amazon.com/LOHAS%C2%AE-White-Power-Energy-Saving/dp/B00CZ75TWA/ref=sr_1_4?ie=UTF8&amp;qid=1428245535&amp;sr=8-4&amp;keywords=100w+led">Amazon</a> or <a href="http://www.ebay.com/itm/10W-20W-30W-50W-70W-80W-100W-SMD-High-Power-LED-Lamp-Chips-Flood-Light-Bulb-Bead-/111299756188?pt=LH_DefaultDomain_0&amp;var=&amp;hash=item19e9fb809c">Ebay</a>. I originally purchased the LOHAS white chip on Amazon and began doing some experimenting with it. I did some experimenting with the white LED, and found it to work very well with a little bit of testing. After that I got excited, and ordered the RGB version. The RGB version also works, but the issues with it are a lot more apparent. In this post I am going to focus on the white LED, with more to come on the RGB version.</p>
 
-<h2>Initial Testing of the 100 Watt LED</h2>
+<h3>Initial Testing of the 100 Watt LED</h3>
 
 <p>I ordered the <a href="http://www.amazon.com/LOHAS%C2%AE-White-Power-Energy-Saving/dp/B00CZ75TWA/ref=sr_1_4?ie=UTF8&amp;qid=1428245535&amp;sr=8-4&amp;keywords=100w+led">cool white LOHAS 100W chip</a> to start out. It seemed like a good idea to experiment with a single color one first. It is very hard to find a datasheet for these things, but I found a suggestion to try 33V at 3A. That is just about 100W, so I figured that was a good starting place. The bench power supply I had access to could only output 500mA, but I figured that should be enough to do something. My first test of the LED was simply connecting to the power supply. Even at 1/6th of the current it was very bright. It also became very clear very quickly that this thing runs very hot. I quickly mounted the LED to a heatsink I salvaged from an old PC, specifically from a Pentium 4. When running the LED with 500mA from the bench supply it took about 15 minutes to heat the heatsink up.</p>
 
-<h2>Some Experiments</h2>
+<h3>Some Experiments</h3>
 
 <p>LEDs have a turn-on voltage range, that is usually given on their datasheet, however since there is no datasheet for this LED I had to do some experimenting to make my own spec. I was talking to one of my co-workers about it, and he suggested connecting it to the bench supply and slowly dialing up the voltage to see when it turned on. This turned out to be a very cool experiment, as can be seen in the gif to the right. As I dialed the voltage up faint light could be seen as low as 10V, and it looked to be almost entirely on around 28V. My next experiment was to see how well it strobed, and look into possibly making it into a strobe light. The idea was to later get the RGB version and use that as a strobe light where each strobe would be a different color. More on that in a later post. I first connected a relay in line with the power supply, and connected the coil to a signal generator, so I could easily adjust the strobe frequency. I found  the maximum frequency of the relay I had to be about 15Hz, which is plenty for a strobe light, although pretty terrible for a relay. The next step from there was to use a microcontroller to control the strobing. I used an Arduino Nano, which is my favorite microcontroller by far. Cheap Arduino nanos can be found on Amazon or Ebay for $10 or even cheaper. The relay I had needed more than the 5V that the Arduino GPIO pins use, so I used a mosfet as a switch to switch the relay. This allowed me to use a potentiometer to adjust the strobe frequency.</p>
 
-<h2>Closing</h2>
+<h3>Closing</h3>
 
 <p>The White 100 watt LED chip turned out to be a really cool look at high power LEDs. Powering it off of the bench supply I was only able to draw 500mA, which, at 30V gave me 15 watts to the LED. This still provided a very bright light that would easily be able to illuminate any room.</p>
 </div>
