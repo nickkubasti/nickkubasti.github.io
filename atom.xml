@@ -4,7 +4,7 @@
   <title><![CDATA[Nick Kubasti's Blog]]></title>
   <link href="http://nickkubasti.com/atom.xml" rel="self"/>
   <link href="http://nickkubasti.com/"/>
-  <updated>2015-04-05T10:09:59-04:00</updated>
+  <updated>2015-04-05T10:10:54-04:00</updated>
   <id>http://nickkubasti.com/</id>
   <author>
     <name><![CDATA[Nick Kubasti]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Yo What's Up]]></title>
+    <link href="http://nickkubasti.com/blog/2015/04/05/yo-whats-up/"/>
+    <updated>2015-04-05T10:10:23-04:00</updated>
+    <id>http://nickkubasti.com/blog/2015/04/05/yo-whats-up</id>
+    <content type="html"><![CDATA[<p>yoyoyoyo</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Blog Post]]></title>
