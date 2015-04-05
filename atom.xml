@@ -4,7 +4,7 @@
   <title><![CDATA[Nick Kubasti's Blog]]></title>
   <link href="http://nickkubasti.com/atom.xml" rel="self"/>
   <link href="http://nickkubasti.com/"/>
-  <updated>2015-04-05T00:09:20-04:00</updated>
+  <updated>2015-04-05T00:10:46-04:00</updated>
   <id>http://nickkubasti.com/</id>
   <author>
     <name><![CDATA[Nick Kubasti]]></name>
@@ -18,7 +18,7 @@
     <link href="http://nickkubasti.com/blog/2015/04/05/first-blog-post/"/>
     <updated>2015-04-05T00:09:12-04:00</updated>
     <id>http://nickkubasti.com/blog/2015/04/05/first-blog-post</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Welcome to my blog! This is going to be a place where I post about projects that I am working on. If you want to stay up to date with what I am working on, this is going to be the place to do it.</p>
 ]]></content>
   </entry>
   
