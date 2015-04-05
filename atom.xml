@@ -4,7 +4,7 @@
   <title><![CDATA[Nick Kubasti's Blog]]></title>
   <link href="http://nickkubasti.com/atom.xml" rel="self"/>
   <link href="http://nickkubasti.com/"/>
-  <updated>2015-03-26T01:05:18-04:00</updated>
+  <updated>2015-04-05T00:09:20-04:00</updated>
   <id>http://nickkubasti.com/</id>
   <author>
     <name><![CDATA[Nick Kubasti]]></name>
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[First Blog Post]]></title>
-    <link href="http://nickkubasti.com/blog/2015/03/26/first-blog-post/"/>
-    <updated>2015-03-26T01:04:16-04:00</updated>
-    <id>http://nickkubasti.com/blog/2015/03/26/first-blog-post</id>
-    <content type="html"><![CDATA[<p> This is my first post</p>
+    <link href="http://nickkubasti.com/blog/2015/04/05/first-blog-post/"/>
+    <updated>2015-04-05T00:09:12-04:00</updated>
+    <id>http://nickkubasti.com/blog/2015/04/05/first-blog-post</id>
+    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
